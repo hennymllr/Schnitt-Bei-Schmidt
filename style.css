@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@400;700&display=swap');
+:root{
+    --Creme: #fdfaf7;
+    --DunkelRotLogo: #541A1A;
+    --SloganGrau: #3D3030;
+    --Blau: #2F3842;
+    --DunkleCreme: #D4CAC4;
+    --Weinrot: #810B38;
+    --OptionenGrau: #6B5858;
+    --WarmeCreme: #C4A593;
+    --HellesGrau: #C2B8AF;
+}
+
+body{
+  background-color: #FDFAF7;
+  line-height: 1.5;
+  margin: 2em;
+}
+
+.Optionen{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  font-family: 'DM Sans';
+  color: var(--SloganGrau);
+  margin: 1em;
+}
+
+.Optionen ul{
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  margin: 1em;
+}
+
+.Optionen a{
+  color: var(--SloganGrau);
+  font-size:1em;
+  text-decoration: none;
+}
+.Optionen a:hover{
+  color: var(--Weinrot);
+  text-decoration:underline;
+} 
+
+.ÜberschriftUndSlogan{
+text-align: left;
+margin-top: -4.5em;
+}
+
+h1{
+  color: var(--DunkelRotLogo);
+  font-family: 'Playfair Display';
+  font-size: 250%;
+  margin-bottom: 0;
+  text-align: left;
+  margin-top: -0.4em;
+}
+
+h2{
+  margin-bottom:0;
+}
+
+h4{
+  font-family: 'DM Sans';
+  color: var(--SloganGrau);
+  font-weight: bold;
+}
+
+p{
+  font-family: 'DM Sans';
+  font-size: 1em;
+  margin-bottom: 0.5;
+}
+
+.Bei{
+  font-family: 'Playfair Display', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--DunkelRotLogo);
+  font-size: 180%;
+  margin: 0;
+  margin-top: -0.5em;
+}
+
+.Slogan{
+  margin-top: -0.15em;
+}
+
+.TerminJetzt{
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
+  color: var(--Weinrot);
+  text-align: center;
+  font-size: 180%;
+  margin-bottom: 1em;
+  margin-top: -0.5em;
+  transition-duration: 0.2s;
+}
+
+.TerminJetzt:hover{
+  letter-spacing: 0.20em;
+}
+
+.TerminBuchung{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.Service{
+  font-family: 'Playfair Display';
+  color: var(--Blau);
+}
+.Preis{
+  font-family: 'Playfair Display';
+  color: var(--Blau);
+  margin-top: -1.5em;
+}
+.BeschreibungService{
+  color:var(--SloganGrau);
+}
+
+.Haarschnitt{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1.5em;
+  align-items: start;
+}
+.HaarschnittBild{
+  width: 100%;
+  height: 18em;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.Coloration{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1.5em;
+  align-items: start;
+  margin-right: 1em;
+}
+.ColorationBild{
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.Bartpflege{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1.5em;
+  align-items: start;
+}
+.BartpflegeBild{
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.MittlereReihe{
+display: grid;
+grid-template-columns: 1fr 1.5fr;
+gap: 1em;
+}
+
+.Styling{
+  display: grid;
+  grid-template-columns: 2.3fr 2fr;
+  gap: 1.5em;
+  align-items: start;
+}
+.StylingBild{
+  width: 100%;
+  height: 18em;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.Seite2{
+  margin-top: 1em;
+}
+
+.ÜberUns{
+  margin-top: 1em;
+}
+.Uns{
+  color: var(--Weinrot);
+  font-family:'Playfair Display';
+  font-weight:lighter;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+.WerWirSind{
+  max-width:50em;
+  margin: 0;
+  margin-top: 0.25em;
+}
+
+.UnsereWerte{
+  color: var(--Weinrot);
+  font-family:'Playfair Display';
+  font-size: 2em;
+  font-weight:lighter;
+  margin-bottom: 0;
+  margin-top:0.5em;
+}
+.Wert{
+  font-family: 'DM Sans';
+  font-size: 1em;
+  margin-bottom: 0.5;
+}
+.WerteZahlen{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5em;
+  margin-top: -1em;
+}
+.Wert h4{
+  font-family: 'DM-Sans' sans-serif;
+  color: var(--Blau);
+  margin-bottom: 0;
+}
+.Wert p{
+  margin-top: 0;
+}
+
+.Wo{
+  font-family: 'Playfair Display';
+  color:var(--Weinrot);
+  font-weight: lighter;
+}
+
+.Buchung h2{
+  font-family: 'Playfair Display';
+  color: var(--Weinrot);
+  font-weight: lighter;
+}
+.Buchung label{
+  font-family: 'DM-Sans';
+  color: var(--SloganGrau);
+}
+.Buchung input,
+.Buchung select{
+  font-family: 'DM Sans';
+  color: var(--SloganGrau);
+}
+.Buchung button{
+  font-family: 'DM-Sans';
+  color:var(--Creme);
+  background-color: var(--Blau);
+  border-radius: 0.5em;
+}
+
+.Buchung button:hover{
+  background-color: var(--Weinrot);
+}
+
+.Team{
+  background-color: var(--Blau);
+  padding: 2em;
+  margin-top: 2em;
+  margin-left:-2em;
+  margin-right: -2em;
+}
+.TeamBild{
+  width: 100%;
+  height: 35em;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1em;
+  display: block;
+}
+.TeamTitel{
+  font-family:'Playfair Display';
+  color:var(--Creme);
+  font-weight: lighter;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+.TeamNamen{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.TeamMitglied{
+  font-family: 'DM-Sans', sans-serif;
+  color: var(--WarmeCreme);
+}
+
+.ImpressumUndDaten{
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 1.5em;
+  margin-top: 2em;
+  border-top: 1px solid var(--DunkleCreme);
+  font-family: 'DM Sans';
+}
+.ImpressumUndDaten a{
+  color: var(--OptionenGrau);
+}
+.ImpressumUndDaten a:hover{
+  color: var(--Weinrot);
+  text-decoration: underline;
+}
+
+.Galerie{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin-top: 2em;
+  padding: 2em;
+  margin-left: -2em;
+  margin-right: -2em;
+  background-color: var(--Blau);
+}
+.Galerie img{
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.GalerieTitel{
+  font-family: 'Playfair Display';
+  color: var(--Blau);
+  font-weight: lighter;
+  font-size: 180%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.Impressum h2,
+.Impressum h3{
+font-family: 'Playfair Display';
+color: var(--Weinrot);
+font-weight: lighter;
+margin-bottom: 0;
+margin-top: 0;
+}
+.Impressum p{
+  margin-top: 0;
+}
+
+.Datenschutz h2,
+.Datenschutz h3{
+font-family: 'Playfair Display';
+color: var(--Weinrot);
+font-weight: lighter;
+margin-bottom: 0;
+margin-top: 0;
+}
+.Datenschutz p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 1023px){
+  .HaarschnittBild{
+    height: 14em;
+  }
+  .ColorationBild{
+    height: 12em;
+  }
+  .BartpflegeBild{
+    height: 12em;
+  }
+  .StylingBild{
+    height: 14em;
+  }
+  .TeamBild{
+    height: 25em;
+  }
+  .Galerie img{
+    height: 14em;
+  }
+  h1{
+    font-size: 200%;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    body{
+      margin: 1em;
+    }
+    .Optionen{
+      flex-direction: column;
+      align-items: right;
+      gap: 0.5em;
+    }
+    .Optionen ul{
+      flex-wrap: wrap;
+      justify-content: right;
+      gap: 0.8em;
+      margin: 0.5em 0;
+    }
+    .ÜberschriftUndSlogan{
+      text-align: left;
+      margin-top: 0;
+    }
+    h1{
+      font-size: 180%;
+      text-align: left;
+      margin-top: -2;
+    }
+    .Bei{
+      font-size: 140%;
+      text-align: left;
+    }
+    .Slogan{
+      text-align: left;
+    }
+    .TerminJetzt{
+      text-align: center;
+      font-size: 140%;
+    }
+    .TerminBuchung{
+      grid-template-columns: 1fr;
+      gap: 2em;
+    }
+    .Haarschnitt,
+    .Coloration,
+    .Bartpflege,
+    .Styling{
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+    }
+    .HaarschnittBild{
+      height: 14em;
+    }
+    .ColorationBild{
+      height: 12em;
+    }
+    .BartpflegeBild{
+      height: 12em;
+    }
+    .StylingBild{
+      height: 14em;
+    }
+    .MittlereReihe{
+      grid-template-columns: 1fr;
+      gap: 1em;
+    }
+    .WerteZahlen{
+      grid-template-columns: 1fr;
+      gap: 1.5em;
+    }
+    .Galerie{
+      grid-template-columns: 1fr;
+      gap: 1em;
+      padding: 1.5em 1em;
+      margin-left: -1em;
+      margin-right: -1em;
+    }
+    .Galerie img{
+      height: 14em;
+    }
+    .GalerieTitel{
+      font-size: 150%;
+    }
+    .Team{
+      padding: 1.5em;
+      margin-left: -1em;
+      margin-right: -1em;
+    }
+    .TeamBild{
+      height: 18em;
+    }
+    .TeamTitel{
+      font-size: 150%;
+    }
+    .ImpressumUndDaten{
+      flex-direction: column;
+      gap: 0.5em;
+      text-align: center;
+    }
+    .Buchung input,
+    .Buchung select,
+    .Buchung button{
+      width: 100%;
+    }
+}

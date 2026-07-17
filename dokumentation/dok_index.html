@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dokumentation</title>
+</head>
+<body>
+    <header>
+        <h1>Frontend Design</h1>
+        <h3>Dokumentation SS 2026</h3>
+        <p>Von:</p>
+        <h3> Henny Müller (770401), hemu2209</h3>
+        <h3> Iuliia Ivanova (770845), 4069 </h3>
+    </header> 
+
+    <img src="Style_Tile_1.png" alt="Bild1" width="700">     
+    <h3>Style Tile 1</h3>   
+    <p>Die erste Variante ist im klassischen Stil gehalten. Das kühle Blau in Kombination mit Bordeauxrot schafft eine ruhige und zurückhaltende Atmosphäre, die an Norddeutschland erinnert. Die Grundidee bestand darin, die Zuverlässigkeit und Tradition des Innenraums zu unterstreichen.</p>
+    
+    <img src="Style_Tile_2.png" alt="Bild2" width="700">   
+    <h3>Style Tile 2</h3>      
+    <p>Bei der zweiten Variante wurde eine dunklere Farbpalette verwendet. Dieses Design wirkt hochwertiger, erwies sich jedoch als zu düster und stellenweise überladen.</p>
+    
+    <img src="Style_Tile_3.png" alt="Bild3" width="700"> 
+    <h3>Style Tile 3</h3>
+    <p>Die dritte Variante war eine überarbeitete Version der vorherigen Entwürfe. Die Mängel der ersten beiden Varianten wurden behoben: Die Fotos wurden nicht mehr als Schaltflächen wahrgenommen, die visuelle Hierarchie wurde verbessert und die Struktur der Startseite wurde übersichtlicher. </p>
+    
+    
+    
+    <h2>Auswahl des Styletiles mit Begründung</h2>
+
+    <p>Für die weitere Entwicklung wurde die dritte Variante ausgewählt. Sie entspricht am besten dem Bild eines klassischen Salons, das wir uns vorgestellt haben, und eignet sich unserer Meinung nach am besten für einen Friseursalon in einer Stadt wie Flensburg. Die zurückhaltende Farbpalette passt gut zur ausgewählten Zielgruppe.</p>
+
+    <h2>Veränderungen gegenüber dem ersten Entwurfsschritt</h2>
+    <p>Wir haben die Rahmen um die Fotos entfernt, damit sie nicht wie Schaltflächen aussehen.</p>
+    <img src="angerung1.png" alt="Bild3" width="700"> 
+
+    <p>Die runden Blöcke auf der Startseite wurden entfernt, da sie sich schlecht an mobile Geräte anpassten und die Lesbarkeit des Textes beeinträchtigten.</p>
+    <img src="Anderungen.png" alt="Bild3" width="700"> 
+
+
+    <h2>Farbpalette</h2>
+    <ul>
+        <li>Creme — #FDFAF7</li>
+        <li>Dunkelrot (Logo) — #541A1A</li>
+        <li>Slogangrau — #3D3030</li>
+        <li>Blau — #2F3842</li>
+        <li>Dunkle Creme — #D4CAC4</li>
+        <li>Weinrot — #810B38</li>
+        <li>Optionsgrau — #6B5858</li>
+        <li>Warme Creme — #C4A593</li>
+        <li>Helles Grau — #C2B8AF</li>
+    </ul>
+    
+    <p>Die Farbpalette basiert auf kühlem Blau, Bordeauxrot und hellem Beige. Diese Kombination schafft eine ruhige, klassische Atmosphäre und passt gut zu einem traditionellen Friseursalon. </p>
+
+
+    <h2>Schriftarten</h2>
+    <p>Für die Überschriften wurde die Schriftart „Playfair Display“ gewählt, die den klassischen Charakter der Website unterstreicht. Für den Fließtext kommt „DM Sans“ zum Einsatz, die auf allen Geräten eine gute Lesbarkeit gewährleistet. In einzelnen Elementen wird „Lora“ verwendet. </p>
+
+
+    <h2>Grid und Komposition</h2>
+    <p>Die Hauptbereiche wurden mithilfe von CSS Grid gestaltet, wodurch sich der Inhalt übersichtlich anordnen und problemlos an verschiedene Bildschirmgrößen anpassen lässt.</p>
+    <p>Die Informationen sind wie folgt gegliedert: Dienstleistungen, Informationen zum Salon, Werte und das Team.</p>
+
+
+    <h2>Responsive Webdesign</h2>
+    <p>Die Anpassung der Website erfolgt mithilfe von Media Queries. Auf kleinen Bildschirmen werden mehrspaltige Blöcke in eine einzige Spalte umgewandelt, und die Größe der Bilder und des Textes wird für eine bessere Lesbarkeit angepasst.</p>
+
+
+    <h2>Projekttagebuch</h2>
+    <p>Um die Zusammenarbeit zu erleichtern, wurde ein Repository in GitLab erstellt. Alle Änderungen wurden regelmäßig in das Repository hochgeladen, wodurch es möglich war, den Entwicklungsprozess zu verfolgen, parallel zu arbeiten und bei Bedarf auf frühere Versionen des Projekts zurückzugreifen.</p>
+    <img src="gitlab_commits.png" alt="Bild3" width="700"> 
+    <p>Im Folgenden werden die wichtigsten Entwicklungsschritte mit entsprechenden Screenshots aus GitLab vorgestellt.</p>
+    <img src="gitlab1.png" alt="Bild3" width="700"> 
+    <img src="gitlab3.png" alt="Bild3" width="700"> 
+    <img src="gitlab2.png" alt="Bild3" width="700"> 
+    <p>In dieser Phase wurde versucht, die Werte des Friseursalons in Form von runden Blöcken darzustellen. Später wurde diese Idee verworfen, da sie keine funktionalen Vorteile hatte und das adaptive Layout unnötig kompliziert gemacht hat.</p>
+    <img src="gitlab4.png" alt="Bild3" width="700"> 
+
+
+
+
+
+
+    <h2>HTML</h2>
+    <p>Bei der Entwicklung wurden semantische HTML-Tags verwendet: header, nav, section, footer, Überschriften h1–h4, Listen, Links und Bilder. Dies macht die Struktur der Seiten übersichtlicher und verbessert die Barrierefreiheit der Website.</p>
+
+    <h2>CSS</h2>
+    <p>Für das Layout wurden CSS Grid und Flexbox verwendet. Die Farben wurden in CSS-Variablen (:root) ausgelagert, was die Arbeit mit der Farbpalette vereinfachte. Die Anpassung an verschiedene Geräte wurde mithilfe von Media Queries umgesetzt.</p>
+
+
+</body>
+</html>
