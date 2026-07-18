@@ -98,8 +98,15 @@ p{
   transition-duration: 0.2s;
 }
 
-.TerminJetzt:hover{
+.TerminJetzt a{
+  color: var(--Weinrot);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.TerminJetzt a:hover{
   letter-spacing: 0.20em;
+  text-decoration: underline;
 }
 
 .TerminBuchung{
@@ -289,6 +296,7 @@ gap: 1em;
 .TeamMitglied{
   font-family: 'DM-Sans', sans-serif;
   color: var(--WarmeCreme);
+
 }
 
 .ImpressumUndDaten{
